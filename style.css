@@ -1,0 +1,181 @@
+/*****************************
+**********  BODY  ************
+*****************************/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    display: block;
+    position: relative;
+    background-image: url("img/img-principal.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+}
+article{
+    position: absolute;
+    width: 500px;
+    height: 776px;
+    display: block;
+}
+
+/*****************************
+*********  HEADER  ***********
+*****************************/
+
+a, #menu-vertical {
+    
+    color: white;
+}
+
+a:hover, #menu-vertical {
+    color: red;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    color: white;
+    vertical-align: middle;
+    align-items: center;
+    font-size: 38px;
+    font-weight: bold;
+}
+
+#ball-of-world {
+    vertical-align: middle;
+    height: 90px;
+    width: 90px;
+    border-radius: 50px;
+    padding-right: 5px;
+}
+body.input{
+    width: 220px;
+    text-align: left;
+    border-style: none;
+}
+
+#my-photo,
+#ball-of-world-nav,
+#formulario,
+#playa {
+    vertical-align: middle;
+    height: 60px;
+    width: 60px;
+    border-radius: 20px;
+}
+
+
+/*****************************
+***********  NAV  ************
+*****************************/
+
+nav li {
+    position: relative;
+    display: inline-block;
+    width: 350px;
+}
+
+nav li {
+    list-style: none;
+}
+
+.menu-nav {
+    display: inline-block;
+    font-size: 24px;
+    font-weight: bold;
+}
+aside{
+    position: relative;
+    width: 380px;
+    height: 170px;
+    background-color: rgb(231, 141, 141);
+    vertical-align: middle;
+    border-radius: 20px;
+    opacity: 0.9;
+}
+#menu-vertical{
+    position: relative;
+    display: flex;
+    align-items: center;
+    vertical-align: middle;
+    font-size: 25px;
+    padding: 12px;
+    margin-left: 25px;
+    width: 380px;
+    height: 170px;
+    background-color: rgb(231, 141, 141);
+    border-radius: 20px;
+    opacity: 0.9;
+}
+.img-div{
+    width: 150px;
+    height: 150px;
+    align-items: center;
+    padding-right: 10px;
+
+}
+.fa-facebook{
+    width: 65px;
+    height: 65px;
+    color: white;
+}
+#icon-fb{
+    width: 65px;
+    height: 65px;
+    color: white;
+}
+#pulse-here{
+    background-color: blue;
+}
+.submenu{
+    font-size: 18px;
+    text-align: left;
+}
+#menu-vertical-right{
+    display: inline-table;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    display: block;
+    /* background-color: black; */
+    width: 100%;
+    padding-bottom: 5px;
+}
+/*****************************
+*****  VERSION MOBILE  *******
+*****************************/
+
+@media screen and (max-width: 480px){
+    body{
+        height: auto;
+    }
+    body{
+        width: auto;
+    }
+    body{
+        display:none;
+    }
+}
+
+@media screen and (max-width: 980px){
+    #contenedor{
+        width: 90%;
+    }
+    #contenido{
+        width: 60%;
+    }
+    #barra_lateral{
+        width:30%;
+    }
+}
