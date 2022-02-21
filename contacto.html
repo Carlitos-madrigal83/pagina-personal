@@ -13,30 +13,10 @@
     <header>
         <img src="img/ball-world.jpg" alt="ball-of-world" id="ball-of-world">
         <a href="index.html">
-            <p>Mis Viajes</p>
+            <p>Formulario de Contacto</p>
         </a>
     </header>
-    <nav>
-        <ul class="menu-nav">
-
-            <li>
-                <img src="img/my-photo.jpg" alt="my-photo" id="my-photo">
-                <a href="sobre-mi.html">Sobre mi</a>
-            </li>
-            <li>
-                <img src="img/ball-world.jpg" alt="ball-of-world" id="ball-of-world-nav">
-                <a href="lugares-del-mundo.html">Lugares del mundo</a>
-            </li>
-            <li>
-                <img src="img/formulario.jpg" alt="formulario" id="formulario">
-                <a href="contacto.html">Contacto</a>
-            </li>
-            <li>
-                <img src="img/playa.jpg" alt="playa" id="playa">
-                <a href="fotografias.html">Fotografías</a>
-            </li>
-        </ul>
-    </nav>
+    <section class="formulario">
     <form action="#" method="POST" enctype="application/x-www-form-urlencoded">
         <fieldset>
             <legend>
@@ -48,14 +28,17 @@
             <p><label for="contraseña">Contraseña: <input type="password"></label></p>
             <p><label>E-mail: <input type="email" placeholder="Introduzca su email"></label></p>
         </fieldset>
-    
-            <fieldset>
-            <p><textarea name="area" cols="40" rows="4" minlength="30" maxlength="500" placeholder="Tu opinión nos importa:"></textarea></p>
-            <p><label><input type="checkbox" value="aceptar" name="condiciones" checked="checked">Acepto condiciones</label></p>
+
+        <fieldset>
+            <p><textarea name="area" cols="40" rows="4" minlength="30" maxlength="500"
+                    placeholder="Tu opinión nos importa:"></textarea></p>
+            <p><label><input type="checkbox" value="aceptar" name="condiciones" checked="checked">Acepto
+                    condiciones</label></p>
             <p><label><input type="reset" value="Limpiar"></label></p>
             <p><label><input type="submit" value="Enviar"></label></p>
         </fieldset>
     </form>
+    </section>
     <script src="script.js"></script>
 </body>
 
