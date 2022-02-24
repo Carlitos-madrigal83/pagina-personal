@@ -8,6 +8,7 @@
 }
 
 body {
+    display: inline-block;
     width: 100%;
     height: 100%;
     margin: 8px;
@@ -20,10 +21,18 @@ body {
     font-weight: bold;
 }
 article{
-    position: absolute;
-    width: 500px;
-    height: 776px;
     display: block;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+.img-div{
+    display: block;
+    width: 150px;
+    height: 150px;
+    justify-content: center;
+    align-items: center;
+    padding-right: 10px;
 }
 
 .formulario{
@@ -76,9 +85,10 @@ body.input{
     border-style: none;
 }
 .img_viajes{
-    display: flex;
-    width: 40%;
-    height: 40%;
+    position: relative;
+    display: block;
+    width: 20%;
+    height: 20%;
 }
 #my-photo,
 #ball-of-world-nav,
@@ -136,13 +146,6 @@ aside{
     background-color: rgb(231, 141, 141);
     border-radius: 20px;
     opacity: 0.9;
-}
-.img-div{
-    width: 150px;
-    height: 150px;
-    align-items: center;
-    padding-right: 10px;
-
 }
 .fa-facebook{
     width: 65px;

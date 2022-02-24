@@ -1,0 +1,55 @@
+/*****************************
+**********  BODY  ************
+*****************************/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+body {
+    width: 100%;
+    height: 100%;
+    margin: 8px;
+    position: relative;
+    background-image: url("img_viajes/atardecer_crucero.jpg");
+    background-size: 100%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+}
+
+
+/*****************************
+*********  HEADER  ***********
+*****************************/
+
+
+
+a, #menu-vertical {
+    
+    color: white;
+}
+
+a:hover, #menu-vertical {
+    color: rgb(54, 204, 116);
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    color: white;
+    vertical-align: middle;
+    align-items: center;
+    font-size: 38px;
+    font-weight: bold;
+    padding-top: 12px;
+}
+
+#ball-of-world {
+    vertical-align: middle;
+    height: 90px;
+    width: 90px;
+    border-radius: 50px;
+    padding-right: 5px;
+}
